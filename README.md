@@ -10,3 +10,14 @@
 -hostname -I
 
 หลังจากนั้นทำงานผ่าน putty และ winscp จากคอมที่เป็นวินโดว์หรือเครื่องหลัก หรือจะทำบน ubuntu ต่อไปก็ได้
+
+ลง driver
+sudo add-apt-repository ppa:graphics-drivers
+sudo apt-get update
+sudo apt-get install nvidia-390
+
+ถ้าต้องการลบ driver (*optional)
+sudo apt-get purge nvidia*
+
+
+
