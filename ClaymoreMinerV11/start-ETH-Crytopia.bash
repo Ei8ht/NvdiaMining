@@ -1,0 +1,1 @@
+screen -S mining ./ethdcrminer64 -epool eu1.ethermine.org:4444 -ewal 0x0abe3f4d811d67b36a6523ee4242c09712d9cd68.Coin6 -epsw x -dbg -1
